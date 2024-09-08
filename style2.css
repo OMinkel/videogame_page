@@ -264,6 +264,7 @@ footer{
     padding: 1rem;
     border-radius: 25px;
     margin-right: 5vh;
+    margin-bottom: 5vh;
     position: relative;
     display: flex;
     flex-direction: column;
