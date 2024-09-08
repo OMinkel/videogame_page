@@ -102,6 +102,8 @@ img{
     display: flex;
     flex-direction: row;
     max-height: 60vw;
+    position: relative;
+    left: 20vh;
 }
 
 .header-txt{
@@ -245,7 +247,6 @@ h1 {
 footer{
     background-color: rgb(11, 169, 218);
     height: 30vh;
-    margin-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -277,7 +278,10 @@ footer{
     
 }
 
-
+.game-container img{
+    width: auto;
+    border-radius: 25px;
+}
 
 .btns{
     display: flex;
@@ -295,55 +299,58 @@ footer{
     border-radius: 50px;
 }
 
-.info-container{
+.product-container{
     display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-iframe {
-    border-radius: 20px;
-    height: 350px;
-    width: 500px;
+    justify-content: center;
+    margin-top: 10vh;
     margin-bottom: 10vh;
 }
 
-.txt-1{
+.view-all{
     position: relative;
-    top: 12rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    right: 6vh;
+    left: 200vh;
+    margin-bottom: 3vh;
 }
 
-.btn-4{
-    position: relative;
-    top: 18rem;
-    right: 39vh;
-}
 
-.link{
-    margin-bottom: 20vh;
+
+.Description{
     margin-top: 20vh;
-    position: relative;
-    left: 60vh;
 }
 
-.info-1{
-    position: relative;
-    left: 20vh;
-    top: 20vh;
-    font-size: 23px;
-    
+.Reviews{
+    margin-bottom: 10vh;
 }
 
-.info-1 h6{
+.txt-3{
+    position: relative;
+    top: 5vh;
+}
+
+.txt-3 p{
     color: palevioletred;
 }
 
-.data-1{
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+.txt-3 h2{
+    font-size: 40px;
+}
+
+.game-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 28vh;
+}
+
+.product-txt{
+    position: relative;
+    left: 10vh;
+    font-size: 20px;
+}
+
+#game{
+    width: 10vh;
+    border-radius: 25px;
 }
